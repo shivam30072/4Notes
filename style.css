@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+input {
+  width: 50%;
+}
+
+.input-boxes {
+  padding: 8px;
+  font-size: 15px;
+  font-weight: 900;
+  font-family: "Poppins";
+  border: none;
+  text-align: center;
+  border-style: none;
+  /* outline: none; */
+}
+
+/* for all placeholder */
+input:focus::placeholder {
+  color: transparent;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+.up {
+  font-size: 20px;
+  color: red;
+  position: absolute;
+  top: 25px;
+  font-weight: 900;
+}
+
+.rotate-1 {
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -12px;
+}
+
+.rotate-2 {
+  font-size: 20px;
+  color: red;
+  font-weight: 900;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -31px;
+}
+
+.box-1 {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px gray;
+  height: 35vh;
+  margin: 10px 10px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.box-2 {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px gray;
+  height: 35vh;
+  margin: 10px 10px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.box-3 {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px grey;
+  height: 35vh;
+  margin: 10px 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.box-4 {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px red;
+  height: 35vh;
+  margin: 10px 10px;
+  margin-right: 50px;
+}
