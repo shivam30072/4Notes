@@ -16,7 +16,7 @@ const notUrgent = [];
 // let list;
 
 
-input1.addEventListener("keypress", function(e){;
+input1.addEventListener("keypress", function(e){
   let li = document.createElement('li');
   li.setAttribute("class", "list1");
   
@@ -101,12 +101,9 @@ function inputBox3(e) {
 }
 }
 
-function inputBox4() {}
+function inputBox4(e) {
+  let content = input4.value;
+  console.log(content);
+}
 
 
-
-
-input2.addEventListener("keypress", inputBox2);
-input3.addEventListener("keypress", inputBox3);
-
-// hello
